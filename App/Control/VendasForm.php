@@ -1,17 +1,17 @@
 <?php
-use Livro\Control\Page;
-use Livro\Control\Action;
-use Livro\Widgets\Form\Form;
-use Livro\Widgets\Container\VBox;
-use Livro\Widgets\Datagrid\Datagrid;
-use Livro\Widgets\Datagrid\DatagridColumn;
-use Livro\Widgets\Form\Entry;
-use Livro\Database\Transaction;
-use Livro\Session\Session;
+use Components\Control\Page;
+use Components\Control\Action;
+use Components\Widgets\Form\Form;
+use Components\Widgets\Container\VBox;
+use Components\Widgets\Datagrid\Datagrid;
+use Components\Widgets\Datagrid\DatagridColumn;
+use Components\Widgets\Form\Entry;
+use Components\Database\Transaction;
+use Components\Session\Session;
 
-use Livro\Widgets\Wrapper\DatagridWrapper;
-use Livro\Widgets\Wrapper\FormWrapper;
-use Livro\Widgets\Container\Panel;
+use Components\Widgets\Wrapper\DatagridWrapper;
+use Components\Widgets\Wrapper\FormWrapper;
+use Components\Widgets\Container\Panel;
 
 /**
  * Página de vendas

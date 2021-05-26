@@ -1,19 +1,19 @@
 <?php
-use Livro\Control\Page;
-use Livro\Control\Action;
-use Livro\Widgets\Form\Form;
-use Livro\Widgets\Dialog\Message;
-use Livro\Widgets\Form\Entry;
-use Livro\Widgets\Form\Combo;
-use Livro\Widgets\Form\RadioGroup;
-use Livro\Database\Transaction;
+use Components\Control\Page;
+use Components\Control\Action;
+use Components\Widgets\Form\Form;
+use Components\Widgets\Dialog\Message;
+use Components\Widgets\Form\Entry;
+use Components\Widgets\Form\Combo;
+use Components\Widgets\Form\RadioGroup;
+use Components\Database\Transaction;
 
-use Livro\Widgets\Wrapper\DatagridWrapper;
-use Livro\Widgets\Wrapper\FormWrapper;
-use Livro\Widgets\Container\Panel;
+use Components\Widgets\Wrapper\DatagridWrapper;
+use Components\Widgets\Wrapper\FormWrapper;
+use Components\Widgets\Container\Panel;
 
-use Livro\Traits\SaveTrait;
-use Livro\Traits\EditTrait;
+use Components\Traits\SaveTrait;
+use Components\Traits\EditTrait;
 
 /**
  * Cadastro de Produtos

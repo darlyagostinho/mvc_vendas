@@ -1,5 +1,5 @@
 <?php
-use Livro\Database\Transaction;
+use Components\Database\Transaction;
 
 class PessoaServices
 {

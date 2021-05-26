@@ -1,6 +1,6 @@
 <?php
-use Livro\Control\Page;
-use Livro\Session\Session;
+use Components\Control\Page;
+use Components\Session\Session;
 
 class SessionTest extends Page
 {

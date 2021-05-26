@@ -1,21 +1,21 @@
 <?php
-use Livro\Control\Page;
-use Livro\Control\Action;
-use Livro\Widgets\Form\Form;
-use Livro\Widgets\Form\Entry;
-use Livro\Widgets\Form\Combo;
-use Livro\Widgets\Container\Panel;
-use Livro\Widgets\Container\VBox;
-use Livro\Widgets\Datagrid\Datagrid;
-use Livro\Widgets\Datagrid\DatagridColumn;
-use Livro\Widgets\Datagrid\PageNavigation;
-use Livro\Widgets\Dialog\Message;
-use Livro\Widgets\Dialog\Question;
-use Livro\Widgets\Wrapper\FormWrapper;
-use Livro\Widgets\Wrapper\DatagridWrapper;
-use Livro\Database\Transaction;
-use Livro\Database\Repository;
-use Livro\Database\Criteria;
+use Components\Control\Page;
+use Components\Control\Action;
+use Components\Widgets\Form\Form;
+use Components\Widgets\Form\Entry;
+use Components\Widgets\Form\Combo;
+use Components\Widgets\Container\Panel;
+use Components\Widgets\Container\VBox;
+use Components\Widgets\Datagrid\Datagrid;
+use Components\Widgets\Datagrid\DatagridColumn;
+use Components\Widgets\Datagrid\PageNavigation;
+use Components\Widgets\Dialog\Message;
+use Components\Widgets\Dialog\Question;
+use Components\Widgets\Wrapper\FormWrapper;
+use Components\Widgets\Wrapper\DatagridWrapper;
+use Components\Database\Transaction;
+use Components\Database\Repository;
+use Components\Database\Criteria;
 
 /**
  * Listagem de Pessoas

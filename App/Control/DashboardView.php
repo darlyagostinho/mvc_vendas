@@ -1,6 +1,6 @@
 <?php
-use Livro\Control\Page;
-use Livro\Widgets\Container\HBox;
+use Components\Control\Page;
+use Components\Widgets\Container\HBox;
 
 /**
  * Vendas por mês

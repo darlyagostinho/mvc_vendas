@@ -1,5 +1,5 @@
 <?php
-use Livro\Database\Record;
+use Components\Database\Record;
 
 class ItemVenda extends Record
 {

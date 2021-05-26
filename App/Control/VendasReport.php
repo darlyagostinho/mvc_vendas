@@ -1,16 +1,16 @@
 <?php
-use Livro\Control\Page;
-use Livro\Control\Action;
-use Livro\Widgets\Form\Form;
-use Livro\Widgets\Form\Entry;
-use Livro\Widgets\Form\Date;
-use Livro\Widgets\Dialog\Message;
-use Livro\Database\Transaction;
-use Livro\Database\Repository;
-use Livro\Database\Criteria;
+use Components\Control\Page;
+use Components\Control\Action;
+use Components\Widgets\Form\Form;
+use Components\Widgets\Form\Entry;
+use Components\Widgets\Form\Date;
+use Components\Widgets\Dialog\Message;
+use Components\Database\Transaction;
+use Components\Database\Repository;
+use Components\Database\Criteria;
 
-use Livro\Widgets\Wrapper\FormWrapper;
-use Livro\Widgets\Container\Panel;
+use Components\Widgets\Wrapper\FormWrapper;
+use Components\Widgets\Container\Panel;
 
 /**
  * Relatório de vendas

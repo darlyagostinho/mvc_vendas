@@ -1,6 +1,6 @@
 <?php
-use Livro\Control\Page;
-use Livro\Database\Transaction;
+use Components\Control\Page;
+use Components\Database\Transaction;
 
 class ModelTest3 extends Page
 {

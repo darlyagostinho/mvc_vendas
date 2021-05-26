@@ -1,6 +1,6 @@
 <?php
-use Livro\Control\Page;
-use Livro\Database\Transaction;
+use Components\Control\Page;
+use Components\Database\Transaction;
 
 class TesteView extends Page
 {

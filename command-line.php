@@ -1,19 +1,19 @@
 <?php
 // Lib loader
-require_once 'Lib/Livro/Core/ClassLoader.php';
-$al= new Livro\Core\ClassLoader;
-$al->addNamespace('Livro', 'Lib/Livro');
+require_once 'Lib/Components/Core/ClassLoader.php';
+$al= new Components\Core\ClassLoader;
+$al->addNamespace('Components', 'Lib/Components');
 $al->register();
 
 // App loader
-require_once 'Lib/Livro/Core/AppLoader.php';
-$al= new Livro\Core\AppLoader;
+require_once 'Lib/Components/Core/AppLoader.php';
+$al= new Components\Core\AppLoader;
 $al->addDirectory('App/Control');
 $al->addDirectory('App/Model');
 $al->addDirectory('App/Services');
 $al->register();
 
-use Livro\Database\Transaction;
+use Components\Database\Transaction;
 
 try
 {

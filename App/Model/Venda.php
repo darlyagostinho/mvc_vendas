@@ -1,8 +1,8 @@
 <?php
-use Livro\Database\Transaction;
-use Livro\Database\Record;
-use Livro\Database\Repository;
-use Livro\Database\Criteria;
+use Components\Database\Transaction;
+use Components\Database\Record;
+use Components\Database\Repository;
+use Components\Database\Criteria;
 
 class Venda extends Record
 {

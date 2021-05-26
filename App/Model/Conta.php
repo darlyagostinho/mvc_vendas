@@ -1,7 +1,7 @@
 <?php
-use Livro\Database\Record;
-use Livro\Database\Criteria;
-use Livro\Database\Repository;
+use Components\Database\Record;
+use Components\Database\Criteria;
+use Components\Database\Repository;
 
 class Conta extends Record
 {

@@ -1,14 +1,14 @@
 <?php
-use Livro\Control\Page;
-use Livro\Control\Action;
-use Livro\Widgets\Form\Form;
-use Livro\Widgets\Dialog\Message;
-use Livro\Widgets\Form\Entry;
-use Livro\Widgets\Form\Combo;
-use Livro\Widgets\Form\CheckGroup;
-use Livro\Database\Transaction;
-use Livro\Widgets\Container\Panel;
-use Livro\Widgets\Wrapper\FormWrapper;
+use Components\Control\Page;
+use Components\Control\Action;
+use Components\Widgets\Form\Form;
+use Components\Widgets\Dialog\Message;
+use Components\Widgets\Form\Entry;
+use Components\Widgets\Form\Combo;
+use Components\Widgets\Form\CheckGroup;
+use Components\Database\Transaction;
+use Components\Widgets\Container\Panel;
+use Components\Widgets\Wrapper\FormWrapper;
 
 /**
  * Formulário de pessoas

@@ -1,21 +1,21 @@
 <?php
-use Livro\Control\Page;
-use Livro\Control\Action;
-use Livro\Widgets\Form\Form;
-use Livro\Widgets\Form\Entry;
-use Livro\Widgets\Container\VBox;
-use Livro\Widgets\Datagrid\Datagrid;
-use Livro\Widgets\Datagrid\DatagridColumn;
+use Components\Control\Page;
+use Components\Control\Action;
+use Components\Widgets\Form\Form;
+use Components\Widgets\Form\Entry;
+use Components\Widgets\Container\VBox;
+use Components\Widgets\Datagrid\Datagrid;
+use Components\Widgets\Datagrid\DatagridColumn;
 
-use Livro\Database\Transaction;
+use Components\Database\Transaction;
 
-use Livro\Traits\DeleteTrait;
-use Livro\Traits\ReloadTrait;
-use Livro\Traits\SaveTrait;
+use Components\Traits\DeleteTrait;
+use Components\Traits\ReloadTrait;
+use Components\Traits\SaveTrait;
 
-use Livro\Widgets\Wrapper\DatagridWrapper;
-use Livro\Widgets\Wrapper\FormWrapper;
-use Livro\Widgets\Container\Panel;
+use Components\Widgets\Wrapper\DatagridWrapper;
+use Components\Widgets\Wrapper\FormWrapper;
+use Components\Widgets\Container\Panel;
 
 /*
  * classe FabricantesFormList

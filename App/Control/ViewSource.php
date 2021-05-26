@@ -1,7 +1,7 @@
 <?php
-use Livro\Control\Page;
+use Components\Control\Page;
 
-use Livro\Widgets\Container\Panel;
+use Components\Widgets\Container\Panel;
 
 /**
  * Exibe código-fonte

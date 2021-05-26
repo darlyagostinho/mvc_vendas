@@ -1,8 +1,8 @@
 <?php
-use Livro\Control\Page;
-use Livro\Widgets\Dialog\Message;
-use Livro\Database\Transaction;
-use Livro\Widgets\Container\Panel;
+use Components\Control\Page;
+use Components\Widgets\Dialog\Message;
+use Components\Database\Transaction;
+use Components\Widgets\Container\Panel;
 
 /**
  * Vendas por tipo

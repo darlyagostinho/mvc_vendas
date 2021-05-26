@@ -1,12 +1,12 @@
 <?php
-use Livro\Control\Page;
-use Livro\Control\Action;
-use Livro\Widgets\Form\Form;
-use Livro\Widgets\Form\Entry;
-use Livro\Widgets\Form\Password;
-use Livro\Widgets\Wrapper\FormWrapper;
-use Livro\Widgets\Container\Panel;
-use Livro\Session\Session;
+use Components\Control\Page;
+use Components\Control\Action;
+use Components\Widgets\Form\Form;
+use Components\Widgets\Form\Entry;
+use Components\Widgets\Form\Password;
+use Components\Widgets\Wrapper\FormWrapper;
+use Components\Widgets\Container\Panel;
+use Components\Session\Session;
 
 class LoginForm extends Page
 {

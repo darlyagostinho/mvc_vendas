@@ -2,20 +2,20 @@
 header('Content-Type: application/json; charset=utf-8');
 
 // Lib loader
-require_once 'Lib/Livro/Core/ClassLoader.php';
-$al= new Livro\Core\ClassLoader;
-$al->addNamespace('Livro', 'Lib/Livro');
+require_once 'Lib/Components/Core/ClassLoader.php';
+$al= new Components\Core\ClassLoader;
+$al->addNamespace('Components', 'Lib/Components');
 $al->register();
 
 // App loader
-require_once 'Lib/Livro/Core/AppLoader.php';
-$al= new Livro\Core\AppLoader;
+require_once 'Lib/Components/Core/AppLoader.php';
+$al= new Components\Core\AppLoader;
 $al->addDirectory('App/Control');
 $al->addDirectory('App/Model');
 $al->addDirectory('App/Services');
 $al->register();
 
-class LivroRestServer
+class ComponentsRestServer
 {
     public static function run($request)
     {
@@ -51,4 +51,4 @@ class LivroRestServer
     }
 }
 
-print LivroRestServer::run($_REQUEST);
+print ComponentsRestServer::run($_REQUEST);
